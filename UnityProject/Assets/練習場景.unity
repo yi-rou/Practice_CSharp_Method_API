@@ -438,7 +438,7 @@ BoxCollider2D:
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_AutoTiling: 1
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
@@ -877,6 +877,7 @@ GameObject:
   - component: {fileID: 1148020812}
   - component: {fileID: 1148020815}
   - component: {fileID: 1148020816}
+  - component: {fileID: 1148020817}
   m_Layer: 0
   m_Name: "\u72D0\u72F8"
   m_TagString: Untagged
@@ -1003,6 +1004,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &1148020817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148020811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f462473c81f038f449a042d5a36b5f5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.1
+  fox: {fileID: 1148020814}
+  rb2D: {fileID: 208772753}
+  sr: {fileID: 1148020813}
 --- !u!1 &1571837338
 GameObject:
   m_ObjectHideFlags: 0
